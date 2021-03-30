@@ -1,0 +1,34 @@
+.recipe{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f5f0ef;
+  align-items: center;
+  min-width: 44%;
+  transition:  all .3s ease-in-out;;
+
+}
+.recipe:hover{
+  transform: scale(1.02);
+
+}
+.imgRadius{
+  border-radius: 50%;
+  margin-bottom: 30px;
+  width: 35%;
+}
+
+.heading{
+  color: rgb(245, 151, 151);
+  /* dab8e2 */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lis{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
